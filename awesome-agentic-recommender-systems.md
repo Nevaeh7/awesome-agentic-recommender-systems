@@ -1,4 +1,4 @@
-# 2026 Agent Recommendation / Agentic Recommender Papers
+# Awesome Agentic Recommender Systems
 
 The curated list has moved to [link](README.md).
 

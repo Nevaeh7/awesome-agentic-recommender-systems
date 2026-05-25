@@ -1,4 +1,4 @@
-# Awesome Agent Recommender Systems
+# Awesome Agentic Recommender Systems
 
 A curated reading list for agentic recommender systems, LLM-based recommendation agents, multi-agent recommendation, agent recommendation, evaluation, safety, and governance.
 
