@@ -2,7 +2,7 @@
 
 A curated reading list for agentic recommender systems, LLM-based recommendation agents, multi-agent recommendation, agent recommendation, evaluation, safety, and governance.
 
-Last updated: 2026-05-25.
+Last updated: 2026-06-15.
 
 ## Scope
 
@@ -13,6 +13,7 @@ Code links point to public repositories that are official, project-named, or cle
 ## Contents
 
 - [Priority Reading Order](#priority-reading-order)
+- [June 2026 Updates](#june-2026-updates)
 - [2026 Core Agentic Recommender Papers](#2026-core-agentic-recommender-papers)
 - [2026 Benchmarks, Evaluation, Safety, and Governance](#2026-benchmarks-evaluation-safety-and-governance)
 - [2026 Conversational, Multi-Agent, and Domain Systems](#2026-conversational-multi-agent-and-domain-systems)
@@ -22,12 +23,45 @@ Code links point to public repositories that are official, project-named, or cle
 
 ## Priority Reading Order
 
-1. MemRec, MARS, AMEM4Rec, RecNet, SAGER: memory and self-evolving user modeling in agentic recommenders.
-2. AgenticRec, ChainRec, RecThinker, RRCM: tool use, reasoning, routing, and ranking-oriented agent optimization.
-3. AgenticRS and AgenticRS-Architecture: conceptual and system-level framing for agentic recommender systems.
-4. RecRM-Bench, RecoAtlas, AgentRecBench, LLMEvalRec: evaluation and benchmarking for recommendation agents.
-5. TriRec, Visual Inception, AgentAttack, governable personalization: fairness, robustness, security, and policy risks.
-6. MATCHA, ARARA, TRACE, LLMGreenRec, Rank-GRPO: domain and conversational systems.
+1. Tau-Rec, Verifiable User Simulation, RecRM-Bench, RecoAtlas: latest evaluation and benchmarking direction.
+2. HARPO, ToolRec, Rank-GRPO, TRACE: user-aligned conversational and assistant-side recommendation.
+3. MixRAGRec, Factorized Latent Reasoning, Implicit Reasoning, Taiji: LLM reasoning, semantic IDs, and industrial-scale recommendation.
+4. MemRec, MARS, AMEM4Rec, RecNet, SAGER: memory and self-evolving user modeling in agentic recommenders.
+5. One Polluted Page, Injection Paradox, Adversarial Feeds, Visual Inception: robustness and attack surfaces for LLM/agentic recommenders.
+6. SafeRx-Agent, MetaPlate, Popcorn, MuChator, LLMGreenRec: domain systems in health, food, movies, music, and e-commerce.
+
+## June 2026 Updates
+
+New or materially updated items found after the 2026-05-25 refresh are listed first.
+
+| # | Year | Title | Paper | Code | Venue / Status | Topic | Why relevant |
+|---|---:|---|---|---|---|---|---|
+| 1 | 2026 | Factorized Latent Reasoning for LLM-based Recommendation | [link](https://arxiv.org/abs/2604.26760) | N/A | arXiv, updated 2026-06-12 | LLM reasoning, recommendation | Factorizes latent reasoning for LLM recommendation, improving user preference modeling beyond shallow text representations. |
+| 2 | 2026 | Verifiable User Simulation for Search and Recommendation Systems | [link](https://arxiv.org/abs/2606.14474) | N/A | SIGIR 2026 tutorial | User simulation, evaluation | Covers verifiable LLM-based user simulation for search, recommendation, and RAG evaluation. |
+| 3 | 2026 | Implicit Reasoning for Large Language Model-based Generative Recommendation | [link](https://arxiv.org/abs/2606.14142) | N/A | arXiv, submitted 2026-06-12 | Generative recommendation | Studies how to invoke LLM knowledge through implicit reasoning for generative recommendation. |
+| 4 | 2026 | Trust but Verify: Mitigating Medical Hallucinations via Post-Hoc Adversarial Auditing and Multi-Agent Feedback Loops | [link](https://arxiv.org/abs/2606.14149) | N/A | arXiv, submitted 2026-06-12 | Safety, medical recommendation | Uses adversarial auditing and multi-agent feedback loops to reduce hallucinated medical recommendations. |
+| 5 | 2026 | One Polluted Page Is Enough: Evaluating Web Content Pollution in Generative Recommenders | [link](https://arxiv.org/abs/2606.13610) | [code](https://github.com/leoluolol/forge-benchmark) | arXiv, submitted 2026-06-11 | Robustness, data pollution | Tests whether polluted web content can steer generative recommenders. |
+| 6 | 2026 | MetaPlate: Counterfactual-Guided RAG-LLM Tool for Personalized Food Recommendation and Hyperglycemia Prevention | [link](https://arxiv.org/abs/2606.10120) | N/A | arXiv, submitted 2026-06-08; updated 2026-06-10 | Food recommendation, RAG tool | Applies a RAG-LLM tool to personalized food recommendation under health constraints. |
+| 7 | 2026 | Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations | [link](https://arxiv.org/abs/2606.10357) | N/A | arXiv, submitted 2026-06-09 | Industrial recommendation | Brings LLM semantic reasoning into industrial cross-domain recommendation. |
+| 8 | 2026 | Tau-Rec: A Verifiable Benchmark for Agentic Recommender Systems | [link](https://arxiv.org/abs/2606.10156) | [code](https://github.com/nbharaths/tau-rec) | arXiv, submitted 2026-06-08 | Agentic benchmark | Provides verifiable rewards and reveal-tagged elicitation for multi-turn agentic recommender evaluation. |
+| 9 | 2026 | The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection | [link](https://arxiv.org/abs/2606.09204) | N/A | ICML 2026 Workshop on Failure Modes in Agentic AI | RAG injection, safety | Studies brand-level suppression and context-injection failure modes in safety-trained LLM recommendations. |
+| 10 | 2026 | Popcorn: A Configurable Benchmark for Visual Evidence in Multimodal Movie Recommendation | [link](https://arxiv.org/abs/2606.09595) | [code](https://github.com/RecSys-lab/Popcorn) | arXiv, submitted 2026-06-08 | Multimodal benchmark | Benchmarks visual evidence use in multimodal movie recommendation. |
+| 11 | 2026 | ToolRec: Calibrated Preference Alignment for Query Recommendation in On-Device Assistants | [link](https://arxiv.org/abs/2606.08466) | N/A | arXiv, submitted 2026-06-07 | Assistant recommendation | Aligns query recommendation in on-device assistants with calibrated user preferences. |
+| 12 | 2026 | HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation | [link](https://arxiv.org/abs/2604.10048) | [code](https://github.com/harpo-bench/harpo-crs) | ACL 2026 Main | Conversational recommendation | Uses hierarchical agentic reasoning for conversational recommendation under incremental preference revelation. |
+| 13 | 2026 | Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations | [link](https://arxiv.org/abs/2606.06779) | N/A | arXiv, submitted 2026-06-04 | Multi-vertical recommendation | Uses LLMs to bridge behavioral silos across e-commerce verticals. |
+| 14 | 2026 | Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization | [link](https://arxiv.org/abs/2606.04547) | N/A | arXiv, submitted 2026-06-03 | LLM personalization | Learns compact user representations for scalable personalization beyond retrieval-only approaches. |
+| 15 | 2026 | Trading Engagement for Sustainability: Carbon-Aware Re-ranking for E-commerce Recommendations | [link](https://arxiv.org/abs/2606.04550) | [code](https://github.com/andersvestrum/carbon-aware-recsys) | arXiv, submitted 2026-06-03 | Sustainability, reranking | Extends sustainability-aware recommendation beyond LLMGreenRec-style multi-agent framing. |
+| 16 | 2026 | Taiji: Pareto Optimal Policy Optimization with Semantics-IDs Trade-off for Industrial LLM-Enhanced Recommendation | [link](https://arxiv.org/abs/2606.03866) | N/A | arXiv, submitted 2026-06-02 | Industrial LLM recommendation | Optimizes trade-offs between semantic IDs and recommendation policy objectives in industrial LLM-enhanced systems. |
+| 17 | 2026 | LLM-Assisted Reranking to Operationalize Nuanced Objectives in Recommender Systems | [link](https://arxiv.org/abs/2606.02883) | N/A | arXiv, submitted 2026-06-01 | Reranking, nuanced objectives | Uses LLM assistance to translate nuanced objectives into operational recommender reranking. |
+| 18 | 2026 | Adversarial Feeds Steer LLM Agent Decisions Against Their Defaults | [link](https://arxiv.org/abs/2606.00914) | [code](https://github.com/ranausmanai/recommenders-as-control-surfaces) | arXiv, submitted 2026-05-30 | Agent safety, ranked feeds | Shows that ranked external feeds can steer LLM agent decisions and provides code plus decision rollouts. |
+| 19 | 2026 | Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation | [link](https://arxiv.org/abs/2605.28175) | [code](https://github.com/Sjay-Wang/MixRAGRec) | KDD 2026 Research Track | Multi-agent LLM recommendation | Combines mixture-of-experts, knowledge graphs, and RAG for multi-agent LLM-based recommendation. |
+| 20 | 2026 | SafeRx-Agent: A Knowledge-Grounded Multi-Agent Framework for Safe and Explainable Medication Recommendation | [link](https://arxiv.org/abs/2605.29146) | N/A | arXiv, submitted 2026-05-27; updated 2026-05-29 | Medical recommendation | Multi-agent medication recommendation framework emphasizing safety, knowledge grounding, and explainability. |
+| 21 | 2026 | Multimodal Music Recommendation System using LLMs | [link](https://arxiv.org/abs/2606.00125) | N/A | arXiv, submitted 2026-05-28 | Music recommendation | Uses LLMs in a multimodal music recommendation system. |
+| 22 | 2026 | ACE: Anisotropy-Controllable Embedding for LLM-enhanced Sequential Recommendation | [link](https://arxiv.org/abs/2605.29322) | N/A | SIGIR 2026 | Sequential recommendation | Improves LLM-enhanced sequential recommendation through anisotropy-controllable embeddings. |
+| 23 | 2026 | Toward User Preference Alignment in LLM Recommendation via Explicit Context Feedback | [link](https://arxiv.org/abs/2605.29141) | N/A | CogMI 2025; arXiv 2026 | Preference alignment | Uses explicit context feedback to align LLM recommendations with user preferences. |
+| 24 | 2026 | Whose Name Comes Up? III: Persona Prompting Effects in LLM-Based Scholar Recommendation | [link](https://arxiv.org/abs/2605.28187) | N/A | arXiv, submitted 2026-05-27 | Scholar recommendation, fairness | Audits persona prompting effects in LLM-based scholar recommendation. |
+| 25 | 2026 | L2Rec: Towards Dual-View Understanding of LLMs for Personalized Recommendation | [link](https://arxiv.org/abs/2605.26717) | N/A | SIGIR 2026 | Personalized recommendation | Studies dual-view understanding for LLM-based personalized recommendation. |
+| 26 | 2026 | MuChator: Enabling Active Music Discovery via Conversational Music LLMs in Douyin Music | [link](https://arxiv.org/abs/2605.27103) | N/A | arXiv, submitted 2026-05-26 | Conversational music recommendation | Applies conversational music LLMs to active music discovery in Douyin Music. |
 
 ## 2026 Core Agentic Recommender Papers
 
@@ -102,12 +136,12 @@ Code links point to public repositories that are official, project-named, or cle
 
 | Theme | Start with | Useful next |
 |---|---|---|
-| Memory and evolving user models | MemRec, MARS, AMEM4Rec | RecNet, SAGER, RRCM |
-| Tool use and reasoning | AgenticRec, RecThinker | ChainRec, Deep Research for Recommender Systems |
-| Benchmarks and evaluation | RecRM-Bench, RecoAtlas | AgentRecBench, LLMEvalRec |
-| Safety, trust, and governance | Visual Inception, bias hacking | AgentAttack, TriRec, governable personalization |
-| Conversational recommendation | TRACE, Rank-GRPO | MATCHA, AAAI Multi-Agent CRS |
-| Multi-agent and domain systems | MACRec, LLMGreenRec | ARARA, ScienceDB AI, video recommenders |
+| Memory and evolving user models | MemRec, MARS, AMEM4Rec | RecNet, SAGER, RRCM, compact user representations |
+| Tool use and reasoning | AgenticRec, RecThinker | ChainRec, HARPO, Factorized Latent Reasoning, Implicit Reasoning |
+| Benchmarks and evaluation | Tau-Rec, RecRM-Bench, RecoAtlas | Verifiable User Simulation, AgentRecBench, LLMEvalRec, Popcorn |
+| Safety, trust, and governance | Visual Inception, One Polluted Page | Injection Paradox, Adversarial Feeds, AgentAttack, TriRec |
+| Conversational recommendation | HARPO, TRACE, Rank-GRPO | ToolRec, MuChator, MATCHA, AAAI Multi-Agent CRS |
+| Multi-agent and domain systems | MixRAGRec, SafeRx-Agent | MetaPlate, LLMGreenRec, ARARA, ScienceDB AI, video recommenders |
 
 ## Related Work Notes
 
