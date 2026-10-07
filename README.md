@@ -131,6 +131,7 @@ New or materially updated items found after the 2026-05-25 refresh are listed fi
 | 10 | 2023 | Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations | [link](https://arxiv.org/abs/2308.16505) | [code](https://github.com/microsoft/RecAI/tree/main/InteRecAgent) | arXiv 2023 | Interactive recommendation | Early LLM-powered interactive recommendation agent. |
 | 11 | 2023 | User Behavior Simulation with Large Language Model based Agents | [link](https://arxiv.org/abs/2306.02552) | N/A | arXiv 2023 | User simulation | Early LLM-agent user behavior simulator for recommender research. |
 | 12 | 2023 | RecMind: Large Language Model Powered Agent For Recommendation | [link](https://arxiv.org/abs/2308.14296) | N/A | arXiv 2023 | LLM recommender agent | Early LLM-powered recommendation agent baseline. |
+| 13 | 2025 | PersonaX: A Recommendation Agent-Oriented User Modeling Framework for Long Behavior Sequence | [link](https://aclanthology.org/2025.findings-acl.300/) | [code](https://github.com/Ancientshi/PersonaX) | Findings of ACL 2025 | User modeling, persona retrieval | Builds cached textual personas from long behavior histories offline for downstream recommendation agents. |
 
 ## Thematic Map
 
